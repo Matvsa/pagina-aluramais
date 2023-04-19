@@ -1,0 +1,136 @@
+body {
+    background-color: #00030c;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+
+h1 {
+    color: white;
+}
+
+.principal {
+    background-image: url(imgs/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Inter';
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+
+.container__botao {
+    background-color: #167BF7;
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+
+}
+
+.container__botao:hover{
+    background-color: #3f8be7;
+    transition: 1s;
+    color: #00030c;
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.container__aviso {
+    font-size: 12px;
+}
+
+.secundario {
+    font-family: 'Inter';
+    align-items: center;
+    margin: 0 18em;
+    
+}
+
+.secundario_imagem{
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0.5em;
+
+}
+
+.descricao__texto{
+    color: #F9F9F9;
+    
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositivos {
+    text-align: center;
+    font-family: 'Inter';
+}
+
+
+.dispositivos__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 5em 0;
+}
+
+.rodape{
+    background-color: antiquewhite;
+    display: flex;
+    color: #00030c;
+    font-family: 'Inter';
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0
+}
+
+.rodape__imagem{
+    width: 10em;
+}
+
